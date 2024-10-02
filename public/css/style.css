@@ -1,0 +1,66 @@
+*{
+    font-size: 24px;
+    color: black;
+    box-sizing: border-box;
+}
+body{
+    background-color: papayawhip;
+}
+.titulo{
+    color: tomato;
+}
+p.texto {
+    color: slateblue;
+}
+p.parrafo{
+    color: red;
+}
+
+div p{
+    color: aquamarine;
+}
+div h2, div h3{
+    color: brown;
+    text-decoration: line-through;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.bg-img{
+    background-image: url("../../img/ciudad.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+}
+.margen{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 40px 0 30px 20px;
+}
+ul{
+    background-color: cyan;
+    list-style: none;
+    width: 200px;
+    padding: 20px;
+}
+ul li{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    width: 300px;
+}
+th,td{
+    border: solid 1px black;
+    padding: 15px;
+    text-align: center;
+}
+tr:hover{
+    background-color: cyan;
+    cursor: pointer;
+}
